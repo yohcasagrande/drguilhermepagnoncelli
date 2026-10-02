@@ -6,7 +6,7 @@
   <title>Dr. Guilherme Pagnoncelli · Dentista em Blumenau | Implantes e lentes de porcelana</title>
   <meta name="description" content="Implantes, dentes fixos e lentes de porcelana com o Dr. Guilherme Pagnoncelli (CRO-SC 12489), na Itoupava Seca, em Blumenau. Monte o seu Mapa do Sorriso e agende pelo WhatsApp.">
   <link rel="canonical" href="https://drguilhermepagnoncelli.vercel.app/">
-  <meta name="theme-color" content="#0E1B26">
+  <meta name="theme-color" content="#cfe7f6">
 
   <meta property="og:type" content="website">
   <meta property="og:locale" content="pt_BR">
@@ -23,7 +23,8 @@
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="dr-guilherme.jpg">
   <link rel="stylesheet" href="style.css">
   <script>document.documentElement.classList.add('js')</script>
 
@@ -45,6 +46,7 @@
       "addressCountry": "BR"
     },
     "geo": { "@type": "GeoCoordinates", "latitude": -26.8895297, "longitude": -49.0877568 },
+    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "72" },
     "openingHoursSpecification": [
       { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"], "opens": "08:00", "closes": "12:00" },
       { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"], "opens": "13:30", "closes": "19:00" },
@@ -70,7 +72,7 @@
       <symbol id="i-copiar" viewBox="0 0 24 24"><rect x="9" y="9" width="12" height="12" rx="2.5"/><path d="M5 15H4.5A2.5 2.5 0 0 1 2 12.5v-8A2.5 2.5 0 0 1 4.5 2h8A2.5 2.5 0 0 1 15 4.5V5"/></symbol>
       <symbol id="i-baixar" viewBox="0 0 24 24"><path d="M12 3.5v12M7 10.5l5 5 5-5M4.5 20.5h15"/></symbol>
       <symbol id="i-refazer" viewBox="0 0 24 24"><path d="M3.5 12a8.5 8.5 0 1 0 2.8-6.3L3.5 8.3"/><path d="M3.5 3.5v4.8h4.8"/></symbol>
-      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 8h16M4 16h16"/></symbol>
       <symbol id="i-fechar" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
       <symbol id="i-pin" viewBox="0 0 24 24"><path d="M19.5 10c0 5.6-7.5 11.5-7.5 11.5S4.5 15.6 4.5 10a7.5 7.5 0 0 1 15 0Z"/><circle cx="12" cy="10" r="2.8"/></symbol>
       <symbol id="i-relogio" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7.2V12l3.2 2"/></symbol>
@@ -81,133 +83,218 @@
       <symbol id="i-coracao" viewBox="0 0 24 24"><path d="M19.6 13.4 12 21l-7.6-7.6A4.9 4.9 0 0 1 12 6.6a4.9 4.9 0 0 1 7.6 6.8Z"/></symbol>
       <symbol id="i-compartilhar" viewBox="0 0 24 24"><path d="M4.5 12.5v6a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2v-6M16 6.5l-4-4-4 4M12 2.5v13"/></symbol>
       <symbol id="i-estrela" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="m12 2.6 2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.4l-5.8 3.1 1.1-6.5-4.7-4.6 6.5-.9Z"/></symbol>
+      <symbol id="i-mao" viewBox="0 0 24 24"><path d="M8 13V5.5a1.5 1.5 0 0 1 3 0V11m0-1.5a1.5 1.5 0 0 1 3 0V11m0-.5a1.5 1.5 0 0 1 3 0V12m0-.5a1.5 1.5 0 0 1 3 0V15a6.5 6.5 0 0 1-6.5 6.5h-.8a6 6 0 0 1-4.6-2.2L4.6 16a1.6 1.6 0 0 1 2.4-2.1L8 15"/></symbol>
       <symbol id="i-zap" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.26-.47-2.39-1.48-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.18.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.21 3.07c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2-1.42.25-.69.25-1.29.18-1.41-.08-.12-.28-.2-.57-.35m-5.42 7.4h-.01a9.87 9.87 0 0 1-5.03-1.37l-.36-.22-3.74.98 1-3.65-.24-.37a9.86 9.86 0 0 1-1.51-5.26c0-5.45 4.44-9.88 9.89-9.88 2.64 0 5.12 1.03 6.99 2.9a9.83 9.83 0 0 1 2.89 6.99c0 5.45-4.44 9.88-9.89 9.88m8.42-18.3A11.82 11.82 0 0 0 12.05 0C5.5 0 .16 5.34.16 11.89c0 2.1.55 4.14 1.59 5.95L.06 24l6.3-1.65a11.88 11.88 0 0 0 5.69 1.45h.01c6.55 0 11.89-5.34 11.89-11.89 0-3.18-1.24-6.17-3.48-8.41Z"/></symbol>
     </defs>
   </svg>
 
   <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+  <div class="progresso-leitura" aria-hidden="true"><span data-progresso></span></div>
 
   <header class="topo" data-topo>
-    <div class="envelope topo__barra">
-      <a class="marca" href="#inicio" aria-label="Dr. Guilherme Pagnoncelli, voltar ao início">
-        <span class="marca__icone" aria-hidden="true"><svg><use href="#i-dente"/></svg></span>
-        <span class="marca__texto"><b>Dr. Guilherme Pagnoncelli</b><small>Odontologia · Blumenau</small></span>
-      </a>
-      <nav class="menu" id="menu" aria-label="Seções do site">
-        <a href="#tratamentos">Tratamentos</a>
-        <a href="#mapa">Mapa do Sorriso</a>
-        <a href="#casos">Casos</a>
-        <a href="#dentista">O dentista</a>
-        <a href="#duvidas">Dúvidas</a>
-        <a href="#contato">Contato</a>
-        <a class="botao botao--primario botao--pequeno menu__cta" data-zap="uma avaliação" href="#contato">Agendar avaliação</a>
-      </nav>
-      <button class="menu-botao" type="button" aria-controls="menu" aria-expanded="false" data-menu-botao>
-        <span class="sr">Abrir o menu</span>
-        <svg class="menu-botao__abrir" aria-hidden="true"><use href="#i-menu"/></svg>
-        <svg class="menu-botao__fechar" aria-hidden="true"><use href="#i-fechar"/></svg>
-      </button>
+    <div class="envelope">
+      <div class="topo__barra">
+        <a class="marca" href="#inicio" aria-label="Dr. Guilherme Pagnoncelli, voltar ao início">
+          <span class="marca__icone" aria-hidden="true"><svg><use href="#i-dente"/></svg></span>
+          <span class="marca__texto"><b>Dr. Guilherme Pagnoncelli</b><small>Odontologia · Blumenau</small></span>
+        </a>
+        <nav class="menu" id="menu" aria-label="Seções do site">
+          <a href="#casos">Casos</a>
+          <a href="#seu-caso">Tratamentos</a>
+          <a href="#mapa">Mapa do Sorriso</a>
+          <a href="#dentista">O dentista</a>
+          <a href="#duvidas">Dúvidas</a>
+          <a class="botao botao--escuro botao--pequeno menu__cta" data-zap="uma avaliação" href="#contato">Agendar avaliação</a>
+        </nav>
+        <button class="menu-botao" type="button" aria-controls="menu" aria-expanded="false" data-menu-botao>
+          <span class="sr">Abrir o menu</span>
+          <svg class="menu-botao__abrir" aria-hidden="true"><use href="#i-menu"/></svg>
+          <svg class="menu-botao__fechar" aria-hidden="true"><use href="#i-fechar"/></svg>
+        </button>
+      </div>
     </div>
   </header>
 
   <main id="conteudo">
     <!-- ============ Início ============ -->
     <section class="heroi" id="inicio">
+      <div class="heroi__ceu" aria-hidden="true"></div>
       <div class="envelope heroi__grade">
         <div class="heroi__texto">
-          <p class="sobretitulo">Implantes · Dentes fixos · Lentes de porcelana</p>
-          <h1>Volte a sorrir <em>sem esconder os dentes.</em></h1>
-          <p class="heroi__lead">Reabilitação oral em Blumenau com o Dr. Guilherme Pagnoncelli. Cada sorriso começa por uma conversa, passa por um planejamento digital e segue um plano feito para você.</p>
-          <div class="heroi__acoes">
-            <a class="botao botao--primario" href="#mapa">Montar meu Mapa do Sorriso <svg aria-hidden="true"><use href="#i-seta"/></svg></a>
-            <a class="botao botao--contorno" data-zap="uma avaliação" href="#contato"><svg aria-hidden="true"><use href="#i-zap"/></svg> Falar no WhatsApp</a>
+          <p class="etiqueta" data-entra><span class="etiqueta__ponto" aria-hidden="true"></span>Reabilitação oral em Blumenau</p>
+          <h1 data-entra>Volte a sorrir <span class="heroi__destaque">sem esconder os dentes.</span></h1>
+          <p class="heroi__lead" data-entra>Implantes, dentes fixos e lentes de porcelana com o Dr. Guilherme Pagnoncelli. Cada sorriso começa por uma conversa, passa por um planejamento digital e segue um plano feito para você.</p>
+          <div class="heroi__acoes" data-entra>
+            <a class="botao botao--escuro" href="#mapa">Montar meu Mapa do Sorriso <svg aria-hidden="true"><use href="#i-seta"/></svg></a>
+            <a class="botao botao--vidro" data-zap="uma avaliação" href="#contato"><svg aria-hidden="true"><use href="#i-zap"/></svg> Falar no WhatsApp</a>
           </div>
-          <ul class="provas">
+          <ul class="provas" data-entra>
             <li>
               <span class="estrelas" role="img" aria-label="Nota 4,9 de 5"><svg><use href="#i-estrela"/></svg><svg><use href="#i-estrela"/></svg><svg><use href="#i-estrela"/></svg><svg><use href="#i-estrela"/></svg><svg><use href="#i-estrela"/></svg></span>
-              <b>4,9 no Google</b><span>72 avaliações</span>
+              <span><b>4,9 no Google</b> · 72 avaliações</span>
             </li>
-            <li><b>+20.000</b><span>vidas transformadas</span></li>
-            <li><b>CRO-SC 12489</b><span>Itoupava Seca, Blumenau</span></li>
+            <li><b>+20.000</b> vidas transformadas</li>
           </ul>
         </div>
 
-        <a class="previa" href="#mapa" aria-label="Abrir o Mapa do Sorriso, a ferramenta exclusiva deste site">
-          <span class="previa__topo">
-            <span class="selo">Exclusivo do site</span>
-            <b>Mapa do Sorriso</b>
-          </span>
-          <span class="previa__sorriso" data-previa aria-hidden="true"></span>
-          <span class="previa__legenda" data-previa-legenda aria-hidden="true">Toque nos dentes que incomodam</span>
-          <span class="previa__rodape">
-            <img src="dr-guilherme-rosto.jpg" alt="" width="48" height="48">
-            <span>Marque o que incomoda e o Dr. Guilherme recebe o seu mapa pelo WhatsApp, antes da consulta.</span>
-            <svg class="previa__seta" aria-hidden="true"><use href="#i-seta"/></svg>
-          </span>
-        </a>
+        <div class="heroi__visual">
+          <figure class="heroi__foto" data-foto>
+            <img src="dr-guilherme.jpg" alt="Dr. Guilherme Pagnoncelli sorri enquanto abraça uma paciente no consultório" width="720" height="921" fetchpriority="high">
+          </figure>
+
+          <a class="previa" href="#mapa" aria-label="Abrir o Mapa do Sorriso, a ferramenta exclusiva deste site" data-flutua>
+            <span class="previa__topo">
+              <span class="selo">Exclusivo do site</span>
+              <b>Mapa do Sorriso</b>
+            </span>
+            <span class="previa__sorriso" data-previa aria-hidden="true"></span>
+            <span class="previa__legenda" data-previa-legenda aria-hidden="true">Toque nos dentes que incomodam</span>
+            <span class="previa__cta">Montar o meu <svg aria-hidden="true"><use href="#i-seta"/></svg></span>
+          </a>
+
+          <div class="selo-flutuante" data-flutua aria-hidden="true">
+            <span class="selo-flutuante__icone"><svg><use href="#i-tela"/></svg></span>
+            <span><b>Planejamento digital</b><small>Você vê o plano antes de começar</small></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="faixa-servicos" aria-label="Tratamentos">
+        <div class="faixa-servicos__trilho" data-trilho>
+          <ul>
+            <li>Implantes dentários</li><li>Dentes fixos (protocolo)</li><li>Lentes de porcelana</li><li>Coroas em porcelana</li><li>Reconstruções</li><li>Clareamento dental</li><li>Planejamento digital</li>
+          </ul>
+          <ul aria-hidden="true">
+            <li>Implantes dentários</li><li>Dentes fixos (protocolo)</li><li>Lentes de porcelana</li><li>Coroas em porcelana</li><li>Reconstruções</li><li>Clareamento dental</li><li>Planejamento digital</li>
+          </ul>
+        </div>
       </div>
     </section>
 
-    <!-- ============ Tratamentos ============ -->
-    <section class="secao secao--clara" id="tratamentos">
+    <!-- ============ Casos ============ -->
+    <section class="secao secao--escura" id="casos">
       <div class="envelope">
-        <header class="secao__cabeca revelar">
-          <p class="sobretitulo">Tratamentos</p>
-          <h2>Do dente que falta ao sorriso que você quer mostrar.</h2>
-          <p>O trabalho do Dr. Guilherme é a reabilitação oral: devolver dentes, mastigação e sorriso. Cada plano junta só o que o seu caso pede.</p>
+        <header class="secao__cabeca secao__cabeca--linha" data-revela>
+          <div>
+            <p class="sobretitulo">Casos reais</p>
+            <h2>Sorrisos que voltaram a aparecer.</h2>
+          </div>
+          <p class="dica-arraste"><svg aria-hidden="true"><use href="#i-mao"/></svg> Arraste a linha para comparar o antes e o depois.</p>
         </header>
 
-        <div class="cartoes">
-          <article class="cartao revelar">
-            <span class="cartao__icone" aria-hidden="true"><svg><use href="#i-implante"/></svg></span>
-            <h3>Implantes dentários</h3>
-            <p>Para repor um ou mais dentes com firmeza, sem depender de prótese móvel.</p>
-            <a class="cartao__link" data-zap="implantes dentários" href="#contato">Perguntar sobre implantes <svg aria-hidden="true"><use href="#i-seta"/></svg></a>
-          </article>
-          <article class="cartao revelar">
-            <span class="cartao__icone" aria-hidden="true"><svg><use href="#i-protocolo"/></svg></span>
-            <h3>Dentes fixos (protocolo)</h3>
-            <p>Para quem usa dentadura ou perdeu os dentes de uma arcada e quer voltar a comer de tudo, com dentes fixos sobre implantes.</p>
-            <a class="cartao__link" data-zap="dentes fixos (protocolo)" href="#contato">Perguntar sobre dentes fixos <svg aria-hidden="true"><use href="#i-seta"/></svg></a>
-          </article>
-          <article class="cartao revelar">
-            <span class="cartao__icone" aria-hidden="true"><svg><use href="#i-lente"/></svg></span>
-            <h3>Lentes de porcelana</h3>
-            <p>Lentes de contato dental para mudar cor, formato e tamanho dos dentes, com acabamento natural.</p>
-            <a class="cartao__link" data-zap="lentes de porcelana" href="#contato">Perguntar sobre lentes <svg aria-hidden="true"><use href="#i-seta"/></svg></a>
-          </article>
-          <article class="cartao revelar">
-            <span class="cartao__icone" aria-hidden="true"><svg><use href="#i-coroa"/></svg></span>
-            <h3>Coroas e reconstruções</h3>
-            <p>Quando dá para preservar o dente, a gente preserva: pinos, coroas em porcelana e reconstruções.</p>
-            <a class="cartao__link" data-zap="coroas e reconstruções" href="#contato">Perguntar sobre coroas <svg aria-hidden="true"><use href="#i-seta"/></svg></a>
-          </article>
-          <article class="cartao revelar">
-            <span class="cartao__icone" aria-hidden="true"><svg><use href="#i-brilho"/></svg></span>
-            <h3>Clareamento dental</h3>
-            <p>Para deixar os dentes naturais mais claros, sozinho ou junto de outros tratamentos.</p>
-            <a class="cartao__link" data-zap="clareamento dental" href="#contato">Perguntar sobre clareamento <svg aria-hidden="true"><use href="#i-seta"/></svg></a>
-          </article>
-          <article class="cartao cartao--destaque revelar">
-            <span class="cartao__icone" aria-hidden="true"><svg><use href="#i-dente"/></svg></span>
-            <h3>Não sabe qual é o seu caso?</h3>
-            <p>Marque no Mapa do Sorriso o que incomoda. O Dr. Guilherme olha com você na avaliação.</p>
-            <a class="cartao__link" href="#mapa">Montar meu mapa <svg aria-hidden="true"><use href="#i-seta"/></svg></a>
+        <div class="casos" data-revela-grupo>
+          <figure class="caso">
+            <div class="comparar" data-comparar style="--pos: 50%">
+              <img src="caso-1-depois.jpg" alt="Sorriso do paciente depois das lentes de contato dental" width="565" height="1061" loading="lazy">
+              <img class="comparar__antes" src="caso-1-antes.jpg" alt="Sorriso do paciente antes do tratamento" width="565" height="1061" loading="lazy">
+              <span class="comparar__rotulo comparar__rotulo--antes" aria-hidden="true">Antes</span>
+              <span class="comparar__rotulo comparar__rotulo--depois" aria-hidden="true">Depois</span>
+              <span class="comparar__linha" aria-hidden="true"><span class="comparar__alca"><svg><use href="#i-voltar"/></svg><svg><use href="#i-seta"/></svg></span></span>
+              <input class="comparar__controle" type="range" min="0" max="100" value="50" aria-label="Comparar antes e depois: lentes de contato dental">
+            </div>
+            <figcaption><b>Lentes de contato dental</b><span>Cor e formato novos para o sorriso.</span></figcaption>
+          </figure>
+
+          <figure class="caso">
+            <div class="comparar" data-comparar style="--pos: 50%">
+              <img src="caso-2-depois.jpg" alt="Sorriso da paciente depois das lentes de porcelana" width="493" height="990" loading="lazy">
+              <img class="comparar__antes" src="caso-2-antes.jpg" alt="Sorriso da paciente antes do tratamento" width="493" height="990" loading="lazy">
+              <span class="comparar__rotulo comparar__rotulo--antes" aria-hidden="true">Antes</span>
+              <span class="comparar__rotulo comparar__rotulo--depois" aria-hidden="true">Depois</span>
+              <span class="comparar__linha" aria-hidden="true"><span class="comparar__alca"><svg><use href="#i-voltar"/></svg><svg><use href="#i-seta"/></svg></span></span>
+              <input class="comparar__controle" type="range" min="0" max="100" value="50" aria-label="Comparar antes e depois: lentes de porcelana">
+            </div>
+            <figcaption><b>Lentes de porcelana esmaltadas</b><span>Sorriso refeito com lentes de porcelana.</span></figcaption>
+          </figure>
+
+          <figure class="caso">
+            <div class="comparar" data-comparar style="--pos: 50%">
+              <img src="caso-3-depois.jpg" alt="Sorriso da paciente depois da reabilitação" width="579" height="1158" loading="lazy">
+              <img class="comparar__antes" src="caso-3-antes.jpg" alt="Sorriso da paciente antes da reabilitação" width="579" height="1158" loading="lazy">
+              <span class="comparar__rotulo comparar__rotulo--antes" aria-hidden="true">Antes</span>
+              <span class="comparar__rotulo comparar__rotulo--depois" aria-hidden="true">Depois</span>
+              <span class="comparar__linha" aria-hidden="true"><span class="comparar__alca"><svg><use href="#i-voltar"/></svg><svg><use href="#i-seta"/></svg></span></span>
+              <input class="comparar__controle" type="range" min="0" max="100" value="50" aria-label="Comparar antes e depois: reabilitação do sorriso">
+            </div>
+            <figcaption><b>Reabilitação do sorriso</b><span>“O mais importante é dar o primeiro passo.”</span></figcaption>
+          </figure>
+        </div>
+
+        <div class="casos__rodape" data-revela>
+          <p class="casos__nota">Casos publicados pelo Dr. Guilherme no Instagram. Cada tratamento é planejado para a pessoa, e o resultado depende da avaliação clínica.</p>
+          <a class="botao botao--contorno" href="https://www.instagram.com/drguilhermepagnoncelli/" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-insta"/></svg> Ver mais casos no Instagram</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Qual é o seu caso ============ -->
+    <section class="secao" id="seu-caso">
+      <div class="envelope">
+        <header class="secao__cabeca secao__cabeca--centro" data-revela>
+          <p class="sobretitulo">Tratamentos</p>
+          <h2>Qual é o seu caso?</h2>
+          <p>Escolha a frase que mais parece com você e veja o caminho que costuma resolver. O plano certo sai da avaliação.</p>
+        </header>
+
+        <div class="guia" data-guia data-revela>
+          <div class="guia__opcoes" role="tablist" aria-label="Escolha a sua situação">
+            <button class="guia__opcao" type="button" role="tab" id="g-tab-1" aria-controls="g-painel" aria-selected="true" data-caso="implante">
+              <span class="guia__icone" aria-hidden="true"><svg><use href="#i-implante"/></svg></span>
+              <span>Perdi um ou mais dentes</span>
+            </button>
+            <button class="guia__opcao" type="button" role="tab" id="g-tab-2" aria-controls="g-painel" aria-selected="false" tabindex="-1" data-caso="protocolo">
+              <span class="guia__icone" aria-hidden="true"><svg><use href="#i-protocolo"/></svg></span>
+              <span>Uso dentadura ou prótese móvel</span>
+            </button>
+            <button class="guia__opcao" type="button" role="tab" id="g-tab-3" aria-controls="g-painel" aria-selected="false" tabindex="-1" data-caso="lentes">
+              <span class="guia__icone" aria-hidden="true"><svg><use href="#i-lente"/></svg></span>
+              <span>Quero mudar cor e formato</span>
+            </button>
+            <button class="guia__opcao" type="button" role="tab" id="g-tab-4" aria-controls="g-painel" aria-selected="false" tabindex="-1" data-caso="coroa">
+              <span class="guia__icone" aria-hidden="true"><svg><use href="#i-coroa"/></svg></span>
+              <span>Tenho dente quebrado ou gasto</span>
+            </button>
+            <button class="guia__opcao" type="button" role="tab" id="g-tab-5" aria-controls="g-painel" aria-selected="false" tabindex="-1" data-caso="clareamento">
+              <span class="guia__icone" aria-hidden="true"><svg><use href="#i-brilho"/></svg></span>
+              <span>Quero dentes mais claros</span>
+            </button>
+          </div>
+
+          <article class="guia__painel" id="g-painel" role="tabpanel" aria-labelledby="g-tab-1" aria-live="polite">
+            <div class="guia__conteudo" data-guia-conteudo>
+              <p class="guia__rotulo" data-g="rotulo">O caminho que costuma resolver</p>
+              <h3 data-g="titulo">Implantes dentários</h3>
+              <p class="guia__texto" data-g="texto">Para repor um ou mais dentes com firmeza, sem depender de prótese móvel. O implante faz o papel da raiz e recebe uma coroa em porcelana por cima.</p>
+              <ul class="guia__lista" data-g="lista">
+                <li><svg aria-hidden="true"><use href="#i-check"/></svg>Avaliação com exame de imagem, como a tomografia</li>
+                <li><svg aria-hidden="true"><use href="#i-check"/></svg>Planejamento digital antes de começar</li>
+                <li><svg aria-hidden="true"><use href="#i-check"/></svg>Provisório para você não ficar sem dente, quando o caso permite</li>
+              </ul>
+              <div class="guia__acoes">
+                <a class="botao botao--escuro" data-guia-zap href="#contato"><svg aria-hidden="true"><use href="#i-zap"/></svg> <span data-g="cta">Perguntar sobre implantes</span></a>
+                <a class="botao botao--linha" href="#mapa">Marcar no Mapa do Sorriso</a>
+              </div>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
     <!-- ============ Mapa do Sorriso ============ -->
-    <section class="secao secao--porcelana" id="mapa">
+    <section class="secao secao--nevoa" id="mapa">
       <div class="envelope">
-        <header class="secao__cabeca secao__cabeca--centro revelar">
+        <header class="secao__cabeca secao__cabeca--centro" data-revela>
           <p class="sobretitulo">Exclusivo deste site</p>
           <h2>Mapa do Sorriso</h2>
           <p>Mostre, dente por dente, o que incomoda. O Dr. Guilherme recebe tudo pelo WhatsApp e a sua avaliação já começa com o seu caso explicado.</p>
+          <ol class="mapa__como" aria-label="Como funciona o Mapa do Sorriso">
+            <li><span>1</span>Marque os dentes</li>
+            <li><span>2</span>Responda 3 perguntas</li>
+            <li><span>3</span>Envie pelo WhatsApp</li>
+          </ol>
         </header>
 
-        <div class="mapa" data-mapa data-etapa-atual="1">
+        <div class="mapa" data-mapa data-etapa-atual="1" data-revela>
           <div class="mapa__painel">
             <div class="ferramentas" role="radiogroup" aria-label="O que você quer marcar nos dentes" data-ferramentas></div>
 
@@ -318,7 +405,7 @@
               <div class="resumo" data-resumo></div>
               <div class="resumo__acoes">
                 <a class="botao botao--zap" data-enviar href="#" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-zap"/></svg> Enviar para o Dr. Guilherme</a>
-                <button class="botao botao--contorno-escuro" type="button" data-imagem><svg aria-hidden="true"><use href="#i-baixar"/></svg> <span>Baixar imagem do mapa</span></button>
+                <button class="botao botao--linha" type="button" data-imagem><svg aria-hidden="true"><use href="#i-baixar"/></svg> <span>Baixar imagem do mapa</span></button>
                 <button class="botao botao--texto" type="button" data-copiar><svg aria-hidden="true"><use href="#i-copiar"/></svg> <span>Copiar resumo</span></button>
               </div>
               <p class="resumo__nota">Isso não é diagnóstico: a indicação certa sai da avaliação e dos exames. Nada fica salvo no site, o resumo só sai do seu aparelho quando você envia.</p>
@@ -334,99 +421,55 @@
       </div>
     </section>
 
-    <!-- ============ Casos ============ -->
-    <section class="secao secao--escura" id="casos">
-      <div class="envelope">
-        <header class="secao__cabeca revelar">
-          <p class="sobretitulo">Casos reais</p>
-          <h2>Sorrisos que voltaram a aparecer.</h2>
-          <p>Arraste a linha para comparar o antes e o depois.</p>
-        </header>
-
-        <div class="casos">
-          <figure class="caso revelar">
-            <div class="comparar" data-comparar style="--pos: 50%">
-              <img src="caso-1-depois.jpg" alt="Sorriso do paciente depois das lentes de contato dental" width="565" height="1061" loading="lazy">
-              <img class="comparar__antes" src="caso-1-antes.jpg" alt="Sorriso do paciente antes do tratamento" width="565" height="1061" loading="lazy">
-              <span class="comparar__rotulo comparar__rotulo--antes" aria-hidden="true">Antes</span>
-              <span class="comparar__rotulo comparar__rotulo--depois" aria-hidden="true">Depois</span>
-              <span class="comparar__linha" aria-hidden="true"><span class="comparar__alca"><svg><use href="#i-voltar"/></svg><svg><use href="#i-seta"/></svg></span></span>
-              <input class="comparar__controle" type="range" min="0" max="100" value="50" aria-label="Comparar antes e depois: lentes de contato dental">
-            </div>
-            <figcaption><b>Lentes de contato dental</b><span>Cor e formato novos para o sorriso.</span></figcaption>
-          </figure>
-
-          <figure class="caso revelar">
-            <div class="comparar" data-comparar style="--pos: 50%">
-              <img src="caso-2-depois.jpg" alt="Sorriso da paciente depois das lentes de porcelana" width="493" height="990" loading="lazy">
-              <img class="comparar__antes" src="caso-2-antes.jpg" alt="Sorriso da paciente antes do tratamento" width="493" height="990" loading="lazy">
-              <span class="comparar__rotulo comparar__rotulo--antes" aria-hidden="true">Antes</span>
-              <span class="comparar__rotulo comparar__rotulo--depois" aria-hidden="true">Depois</span>
-              <span class="comparar__linha" aria-hidden="true"><span class="comparar__alca"><svg><use href="#i-voltar"/></svg><svg><use href="#i-seta"/></svg></span></span>
-              <input class="comparar__controle" type="range" min="0" max="100" value="50" aria-label="Comparar antes e depois: lentes de porcelana">
-            </div>
-            <figcaption><b>Lentes de porcelana esmaltadas</b><span>Sorriso refeito com lentes de porcelana.</span></figcaption>
-          </figure>
-
-          <figure class="caso revelar">
-            <div class="comparar" data-comparar style="--pos: 50%">
-              <img src="caso-3-depois.jpg" alt="Sorriso da paciente depois da reabilitação" width="579" height="1158" loading="lazy">
-              <img class="comparar__antes" src="caso-3-antes.jpg" alt="Sorriso da paciente antes da reabilitação" width="579" height="1158" loading="lazy">
-              <span class="comparar__rotulo comparar__rotulo--antes" aria-hidden="true">Antes</span>
-              <span class="comparar__rotulo comparar__rotulo--depois" aria-hidden="true">Depois</span>
-              <span class="comparar__linha" aria-hidden="true"><span class="comparar__alca"><svg><use href="#i-voltar"/></svg><svg><use href="#i-seta"/></svg></span></span>
-              <input class="comparar__controle" type="range" min="0" max="100" value="50" aria-label="Comparar antes e depois: reabilitação do sorriso">
-            </div>
-            <figcaption><b>Reabilitação do sorriso</b><span>“O mais importante é dar o primeiro passo.”</span></figcaption>
-          </figure>
-        </div>
-
-        <p class="casos__nota">Casos publicados pelo Dr. Guilherme no Instagram. Cada tratamento é planejado para a pessoa, e o resultado depende da avaliação clínica. <a href="https://www.instagram.com/drguilhermepagnoncelli/" target="_blank" rel="noopener">Ver mais casos no Instagram</a></p>
-      </div>
-    </section>
-
     <!-- ============ Como funciona ============ -->
-    <section class="secao secao--clara" id="como-funciona">
-      <div class="envelope processo">
-        <figure class="processo__foto revelar">
-          <img src="planejamento-digital.jpg" alt="Dr. Guilherme no consultório, com o modelo digital dos dentes de um paciente na tela do computador" width="960" height="792" loading="lazy">
-          <figcaption><svg aria-hidden="true"><use href="#i-tela"/></svg> Planejamento digital: o tratamento é desenhado na tela antes de começar.</figcaption>
-        </figure>
-
-        <div class="processo__texto">
-          <header class="secao__cabeca revelar">
+    <section class="secao" id="como-funciona">
+      <div class="envelope">
+        <header class="secao__cabeca secao__cabeca--linha" data-revela>
+          <div>
             <p class="sobretitulo">Como funciona</p>
             <h2>Um plano antes de qualquer etapa.</h2>
-          </header>
-          <ol class="passos">
-            <li class="revelar">
-              <span class="passos__icone" aria-hidden="true"><svg><use href="#i-conversa"/></svg></span>
-              <div><h3>Conversa e avaliação</h3><p>Você conta o que incomoda e o Dr. Guilherme examina com calma. Quando precisa, pede exames de imagem, como a tomografia.</p></div>
-            </li>
-            <li class="revelar">
-              <span class="passos__icone" aria-hidden="true"><svg><use href="#i-tela"/></svg></span>
-              <div><h3>Planejamento digital</h3><p>Com o modelo da sua boca na tela, o tratamento é planejado antes de começar, e você entende cada passo.</p></div>
-            </li>
-            <li class="revelar">
-              <span class="passos__icone" aria-hidden="true"><svg><use href="#i-etapas"/></svg></span>
-              <div><h3>Tratamento por etapas</h3><p>Implantes, provisórios, coroas e lentes entram na ordem certa. As reabilitações completas que ele mostra no Instagram levaram de 7 a 10 meses.</p></div>
-            </li>
-            <li class="revelar">
-              <span class="passos__icone" aria-hidden="true"><svg><use href="#i-coracao"/></svg></span>
-              <div><h3>Acompanhamento</h3><p>Depois do sorriso pronto vêm as revisões, para o resultado durar e para cuidar de qualquer detalhe cedo.</p></div>
-            </li>
-          </ol>
-        </div>
+          </div>
+          <p>Do primeiro “oi” no WhatsApp até as revisões, você sabe o que vem a seguir.</p>
+        </header>
+
+        <ol class="linha-tempo" data-linha-tempo>
+          <li class="linha-tempo__trilho" aria-hidden="true"><span data-linha-barra></span></li>
+          <li class="passo" data-revela>
+            <span class="passo__num">1</span>
+            <span class="passo__icone" aria-hidden="true"><svg><use href="#i-conversa"/></svg></span>
+            <h3>Conversa e avaliação</h3>
+            <p>Você conta o que incomoda e o Dr. Guilherme examina com calma. Quando precisa, pede exames de imagem, como a tomografia.</p>
+          </li>
+          <li class="passo" data-revela>
+            <span class="passo__num">2</span>
+            <span class="passo__icone" aria-hidden="true"><svg><use href="#i-tela"/></svg></span>
+            <h3>Planejamento digital</h3>
+            <p>Com o modelo da sua boca na tela, o tratamento é desenhado antes de começar, e você entende cada passo.</p>
+          </li>
+          <li class="passo" data-revela>
+            <span class="passo__num">3</span>
+            <span class="passo__icone" aria-hidden="true"><svg><use href="#i-etapas"/></svg></span>
+            <h3>Tratamento por etapas</h3>
+            <p>Implantes, provisórios, coroas e lentes entram na ordem certa. As reabilitações completas que ele mostra no Instagram levaram de 7 a 10 meses.</p>
+          </li>
+          <li class="passo" data-revela>
+            <span class="passo__num">4</span>
+            <span class="passo__icone" aria-hidden="true"><svg><use href="#i-coracao"/></svg></span>
+            <h3>Acompanhamento</h3>
+            <p>Depois do sorriso pronto vêm as revisões, para o resultado durar e para cuidar de qualquer detalhe cedo.</p>
+          </li>
+        </ol>
       </div>
     </section>
 
     <!-- ============ O dentista ============ -->
-    <section class="secao secao--porcelana" id="dentista">
+    <section class="secao secao--nevoa" id="dentista">
       <div class="envelope dentista">
-        <figure class="dentista__foto revelar">
-          <img src="dr-guilherme.jpg" alt="Dr. Guilherme Pagnoncelli sorri enquanto abraça uma paciente no consultório" width="720" height="921" loading="lazy">
+        <figure class="dentista__foto" data-revela>
+          <img src="planejamento-digital.jpg" alt="Dr. Guilherme no consultório, com o modelo digital dos dentes de um paciente na tela do computador" width="960" height="792" loading="lazy">
+          <figcaption><svg aria-hidden="true"><use href="#i-tela"/></svg> O tratamento é desenhado na tela antes de começar.</figcaption>
         </figure>
-        <div class="dentista__texto revelar">
+        <div class="dentista__texto" data-revela>
           <p class="sobretitulo">O dentista</p>
           <h2>Dr. Guilherme Pagnoncelli</h2>
           <p class="dentista__registro">Cirurgião-dentista · CRO-SC 12489</p>
@@ -437,45 +480,46 @@
             <cite>Dr. Guilherme, no Instagram</cite>
           </blockquote>
           <dl class="numeros">
-            <div><dt>+20.000</dt><dd>vidas transformadas</dd></div>
-            <div><dt>4,9</dt><dd>no Google, com 72 avaliações</dd></div>
+            <div><dt><span data-conta="20000" data-prefixo="+">+20.000</span></dt><dd>vidas transformadas</dd></div>
+            <div><dt><span data-conta="4.9" data-casas="1">4,9</span></dt><dd>de nota no Google</dd></div>
+            <div><dt><span data-conta="72">72</span></dt><dd>avaliações no Google</dd></div>
           </dl>
-          <a class="botao botao--contorno-escuro" href="https://www.instagram.com/drguilhermepagnoncelli/" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-insta"/></svg> @drguilhermepagnoncelli</a>
+          <a class="botao botao--linha" href="https://www.instagram.com/drguilhermepagnoncelli/" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-insta"/></svg> @drguilhermepagnoncelli</a>
         </div>
       </div>
     </section>
 
     <!-- ============ Dúvidas ============ -->
-    <section class="secao secao--clara" id="duvidas">
+    <section class="secao" id="duvidas">
       <div class="envelope duvidas">
-        <header class="secao__cabeca revelar">
+        <header class="secao__cabeca" data-revela>
           <p class="sobretitulo">Dúvidas</p>
           <h2>Perguntas que chegam todo dia.</h2>
           <p>Não achou a sua? Mande no WhatsApp, a equipe responde.</p>
           <a class="botao botao--escuro" data-zap="uma dúvida sobre o tratamento" href="#contato"><svg aria-hidden="true"><use href="#i-zap"/></svg> Perguntar no WhatsApp</a>
         </header>
-        <div class="duvidas__lista">
-          <details class="duvida revelar">
+        <div class="duvidas__lista" data-revela-grupo>
+          <details class="duvida">
             <summary>Quem usa dentadura pode ter dentes fixos?</summary>
             <p>Em muitos casos, sim, com dentes fixos sobre implantes, o chamado protocolo. Quem define é a avaliação, junto com exames como a tomografia, que mostram o osso disponível.</p>
           </details>
-          <details class="duvida revelar">
+          <details class="duvida">
             <summary>Existe idade limite para fazer implante?</summary>
             <p>A idade, sozinha, não impede o tratamento. O que conta é a saúde geral e a avaliação da boca. Muitos dos casos que o Dr. Guilherme mostra no Instagram são de pacientes da melhor idade.</p>
           </details>
-          <details class="duvida revelar">
+          <details class="duvida">
             <summary>Quanto tempo leva uma reabilitação completa?</summary>
             <p>Depende do caso. As reabilitações com implantes e lentes que ele mostrou no Instagram levaram de 7 a 10 meses. Tratamentos menores são mais rápidos, e o prazo do seu plano sai do planejamento.</p>
           </details>
-          <details class="duvida revelar">
+          <details class="duvida">
             <summary>Lente de contato dental desgasta o dente?</summary>
             <p>Depende de cada caso. A necessidade de preparo é definida na avaliação e no planejamento, sempre buscando preservar o dente natural.</p>
           </details>
-          <details class="duvida revelar">
+          <details class="duvida">
             <summary>Quanto custa o tratamento?</summary>
             <p>O valor depende do que o seu caso pede e é apresentado depois da avaliação, com o planejamento em mãos. Pelo WhatsApp a equipe tira dúvidas e marca o horário.</p>
           </details>
-          <details class="duvida revelar">
+          <details class="duvida">
             <summary>Como funciona o Mapa do Sorriso?</summary>
             <p>Você marca no desenho os dentes que incomodam, responde três perguntas rápidas e envia o resumo pelo WhatsApp, com a imagem do mapa se quiser. Nada fica salvo no site, e a avaliação continua sendo feita no consultório.</p>
           </details>
@@ -486,7 +530,7 @@
     <!-- ============ Contato ============ -->
     <section class="secao secao--escura" id="contato">
       <div class="envelope contato">
-        <div class="contato__texto revelar">
+        <div class="contato__texto" data-revela>
           <p class="sobretitulo">Contato</p>
           <h2>Agende a sua avaliação.</h2>
           <p class="status" data-status><span class="ponto" aria-hidden="true"></span><span>Atendimento de segunda a sexta</span></p>
@@ -517,12 +561,12 @@
           </ul>
 
           <div class="contato__acoes">
-            <a class="botao botao--primario" data-zap="uma avaliação" href="#contato"><svg aria-hidden="true"><use href="#i-zap"/></svg> Agendar pelo WhatsApp</a>
+            <a class="botao botao--claro" data-zap="uma avaliação" href="#contato"><svg aria-hidden="true"><use href="#i-zap"/></svg> Agendar pelo WhatsApp</a>
             <a class="botao botao--contorno" href="https://www.google.com/maps/dir/?api=1&amp;destination=Cl%C3%ADnica+de+Odontologia+Inove%2C+R.+Erich+Steinbach%2C+22%2C+Blumenau+SC" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-pin"/></svg> Como chegar</a>
           </div>
         </div>
 
-        <div class="contato__mapa revelar">
+        <div class="contato__mapa" data-revela>
           <iframe title="Mapa: Clínica de Odontologia Inove, R. Erich Steinbach, 22, Itoupava Seca, Blumenau" src="https://www.google.com/maps?q=Cl%C3%ADnica+de+Odontologia+Inove,+R.+Erich+Steinbach,+22+-+Itoupava+Seca,+Blumenau+-+SC&amp;z=16&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
         </div>
       </div>
@@ -530,11 +574,11 @@
 
     <!-- ============ Faixa final ============ -->
     <section class="faixa">
-      <div class="envelope faixa__grade">
-        <p class="faixa__frase">O mais importante é dar o <em>primeiro passo.</em></p>
+      <div class="envelope faixa__grade" data-revela>
+        <p class="faixa__frase">O mais importante é dar o <span>primeiro passo.</span></p>
         <div class="faixa__acoes">
           <a class="botao botao--escuro" href="#mapa">Montar meu Mapa do Sorriso <svg aria-hidden="true"><use href="#i-seta"/></svg></a>
-          <a class="botao botao--contorno-escuro" data-zap="uma avaliação" href="#contato"><svg aria-hidden="true"><use href="#i-zap"/></svg> Falar no WhatsApp</a>
+          <a class="botao botao--vidro" data-zap="uma avaliação" href="#contato"><svg aria-hidden="true"><use href="#i-zap"/></svg> Falar no WhatsApp</a>
         </div>
       </div>
     </section>
@@ -557,6 +601,12 @@
 
   <a class="zap" data-zap="uma avaliação" href="#contato" aria-label="Falar com o Dr. Guilherme no WhatsApp"><svg aria-hidden="true"><use href="#i-zap"/></svg></a>
 
+  <nav class="barra-fixa" aria-label="Atalhos" data-barra-fixa>
+    <a class="botao botao--escuro" href="#mapa">Montar meu mapa</a>
+    <a class="botao botao--zap" data-zap="uma avaliação" href="#contato"><svg aria-hidden="true"><use href="#i-zap"/></svg> WhatsApp</a>
+  </nav>
+
+  <script src="https://cdn.jsdelivr.net/npm/motion@11.18.2/dist/motion.js" defer></script>
   <script src="main.js" defer></script>
   <script src="mapa.js" defer></script>
 </body>
